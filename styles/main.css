@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.nav {
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgb(61, 61, 61);;
+    width: 100%;
+    justify-content: left;
+    background-color: rgb(61, 61, 61);
+    margin-bottom: 5px;
+
+  }
+
+  .nav__list {
+      width: auto;
+      flex-basis: 10%;
+      display: inline-flex;
+      justify-content: space-evenly;
+      font-family: 'Roboto', sans-serif;
+      background-color: rgb(61, 61, 61);
+      margin: 5px;
+  }
+
+  a:link, a:visited {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+  }
+
+  a:hover {
+      color: rgb(255, 255, 255);
+  }
+
+  .bordered {
+      border: 1px;
+  }
+
+  .tips__list {
+      margin-top: 10px;
+      border: 1px solid black;
+      flex-basis: 20%;
+      padding: 13px;
+  }
+
+  .tip {
+    padding: 1px;
+  }
+
+  .fishList {
+      padding-top: 3em;
+  }
