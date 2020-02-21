@@ -3,11 +3,7 @@
 
 
 
-.container {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
+
 
   a:link, a:visited {
     color: rgb(175, 175, 175);
@@ -23,5 +19,12 @@
   }
 
   .fishList {
+      display: flex;
+      flex-flow: wrap; 
+      justify-content: flex-start;    
       padding-top: 3em;
+  }
+
+  .fish {
+      margin: 5px;
   }
