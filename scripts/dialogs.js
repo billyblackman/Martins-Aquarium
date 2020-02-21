@@ -25,6 +25,17 @@ const initializeDetailButtonEvents = () => {
         }
     )
 
+    document.querySelector("#button--sam").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--sam")
+            theDialog.showModal()
+        }
+    )
+
 }
+
+
+
 
 export default initializeDetailButtonEvents
