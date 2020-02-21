@@ -1,5 +1,5 @@
-@import 'nav.css'
-@import 'tips.css'
+@import 'nav.css';
+@import 'tips.css';
 
 
 
@@ -8,8 +8,6 @@
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-
-
 
   a:link, a:visited {
     color: rgb(175, 175, 175);
