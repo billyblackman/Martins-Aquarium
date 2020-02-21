@@ -30,12 +30,22 @@ const initializeDetailButtonEvents = () => {
         theClickEvent => {
             const theDialog = document.querySelector("#details--sam")
             theDialog.showModal()
+            console.log("button sam fired")
         }
     )
+
+    document.querySelector("#button--trey").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--trey")
+            theDialog.showModal()
+        }
+    )
+
 
 }
 
 
 
-
 export default initializeDetailButtonEvents
+
