@@ -27,19 +27,29 @@
 
   .fish {
       margin: 12px;
-      box-shadow: -3px 4px 5px 1px;
+      box-shadow: -5px 5px 14px 0px;
       width: 17em;
+      background-color: #6bd1d4;
+      border-radius: 7px;
   }
 
   .fish__header {
-      padding-left: 10px;
+    font-family: 'Trade Winds', sans-serif;
+    text-align: center;
   }
 
   .fish__image {
       width: 100%;
-      height: 55%;
+      height: 70%;
   }
 
   body {
     background-image: linear-gradient(45deg, rgb(0, 0, 0), #001ce6f0);
+  }
+
+  .details--button {
+    padding-left: 1px;
+    top: -19px;
+    position: relative;
+    left: 5px;
   }
