@@ -1,7 +1,7 @@
-import initializeDetailButtonEvents from './dialogs.js'
-import { useFish } from './FishDataProvider.js'
-import Fish from './Fish.js'
-import FishList from './FishList.js'
+import initializeDetailButtonEvents from './fish/dialogs.js'
+import { useFish } from './fish/FishDataProvider.js'
+import Fish from './fish/Fish.js'
+import FishList from './fish/FishList.js'
 
 
 
