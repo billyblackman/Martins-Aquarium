@@ -3,7 +3,7 @@ import { useFish } from './FishDataProvider.js'
 import Fish from './Fish.js'
 import FishList from './FishList.js'
 
-// initializeDetailButtonEvents()
+
 
 const allTheFishObjects = useFish()
 
@@ -12,3 +12,5 @@ for (const currentFishObject of allTheFishObjects) {
 }
 
 FishList()
+
+initializeDetailButtonEvents()
