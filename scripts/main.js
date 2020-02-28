@@ -2,6 +2,8 @@ import initializeDetailButtonEvents from './fish/dialogs.js'
 import { useFish } from './fish/FishDataProvider.js'
 import Fish from './fish/Fish.js'
 import FishList from './fish/FishList.js'
+import TipList from './tips/TipList.js'
+
 
 
 
@@ -12,5 +14,8 @@ for (const currentFishObject of allTheFishObjects) {
 }
 
 FishList()
+
+TipList()
+
 
 initializeDetailButtonEvents()
