@@ -23,3 +23,12 @@
       background-color: rgb(61, 61, 61);
       margin: 5px;
   }
+
+  a:link, a:visited {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+  }
+
+  a:hover {
+      color: rgb(255, 255, 255);
+  }
