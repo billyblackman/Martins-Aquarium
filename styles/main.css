@@ -29,6 +29,7 @@
       margin: 12px;
       box-shadow: -5px 5px 14px 0px;
       width: 17em;
+      height: 16em;
       background-color: #6bd1d4;
       border-radius: 7px;
   }
@@ -40,7 +41,9 @@
 
   .fish__image {
       width: 100%;
-      height: 70%;
+      height: 195px;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
   }
 
   body {
@@ -49,7 +52,18 @@
 
   .details--button {
     padding-left: 1px;
-    top: -19px;
+    top: -2px;
     position: relative;
     left: 5px;
+  }
+
+  .fish__name {
+    font-family: 'Trade Winds', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+  
+  .tips__aside {
+    font-family: 'Roboto', sans-serif;
   }
