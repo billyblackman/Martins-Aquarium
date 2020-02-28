@@ -49,7 +49,7 @@ const fishCollection = [
         name: "Margot",
         species: "Purple Flounder",
         food: "Plankton",
-        location: "Great Barrier Reed",
+        location: "Great Barrier Reef",
         length: "4 inches"
     },
 ]
