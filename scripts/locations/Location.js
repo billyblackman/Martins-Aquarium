@@ -3,11 +3,12 @@
  */
 const locationFunction = (location) => {
     return `
-        <div>
-            <img class="location__image" src="${location.image}" alt="">
-        </div>
         <div class="location">
-        <h3>${location.name}</h3>
+            <div>
+                <img class="location__image" src="${location.image}" alt="">
+            </div>
+        
+            <h3 class="location__name">${location.name}</h3>
         
         </div>
     `
