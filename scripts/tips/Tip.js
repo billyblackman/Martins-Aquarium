@@ -3,7 +3,7 @@
  */
 const tipFunction = (tip) => {
     return `
-        <section class="tip">${tip}</section>
+        <li class="tip">${tip}</li>
     `
 }
 
