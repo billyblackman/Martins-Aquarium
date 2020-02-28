@@ -31,7 +31,7 @@ for (const location of locations) {
 
 // Add a section, and all of the fish to the DOM
 contentElement.innerHTML += `
-    <section class="location__section">
+    <section class="location__list">
         ${locationHTMLrepresentation}
     </section>
 `
