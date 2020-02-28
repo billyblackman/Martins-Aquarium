@@ -2,9 +2,6 @@
 @import 'tips.css';
 @import 'locations.css';
 
-  /* .bordered {
-      border: 1px;
-  } */
 
   .fishList {
       display: flex;
