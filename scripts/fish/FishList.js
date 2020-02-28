@@ -9,7 +9,7 @@ import Fish from "./Fish.js"
 const FishList = () => {
 
     // Get a reference to the `<article class="content">` element
-    const contentElement = document.querySelector("body")
+    const contentElement = document.querySelector(".fish__List")
     const fishes = useFish()
 
 // Generate all of the HTML for all of the fish

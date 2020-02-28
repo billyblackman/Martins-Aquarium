@@ -10,7 +10,7 @@ import { tipCollectionCopy } from "./TipListProvider.js";
 const TipList = () => {
 
     // Get a reference to the `<article class="content">` element
-    const contentElement = document.querySelector("aside")
+    const contentElement = document.querySelector(".tips__list")
     const tips = tipCollectionCopy()
 
 // Generate all of the HTML for all of the fish
