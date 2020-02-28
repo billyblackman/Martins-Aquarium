@@ -1,6 +1,6 @@
 
   .tips__aside {
-    margin-top: 10px;
+    margin: 12px;
     flex-basis: 20%;
     padding: 13px;
     border-radius: 7px;
@@ -9,4 +9,8 @@
 
 .tip {
   padding: 1px;
+}
+
+.tips__aside {
+  font-family: 'Roboto', sans-serif;
 }

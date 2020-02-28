@@ -1,22 +1,7 @@
 @import 'nav.css';
 @import 'tips.css';
+@import 'locations.css';
 
-
-
-
-
-  a:link, a:visited {
-    color: rgb(175, 175, 175);
-    text-decoration: none;
-  }
-
-  a:hover {
-      color: rgb(255, 255, 255);
-  }
-
-  .bordered {
-      border: 1px;
-  }
 
   .fishList {
       display: flex;
@@ -64,6 +49,4 @@
     font-size: 1.5em;
 }
   
-  .tips__aside {
-    font-family: 'Roboto', sans-serif;
-  }
+  
