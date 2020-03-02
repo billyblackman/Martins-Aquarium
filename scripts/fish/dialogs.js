@@ -12,62 +12,22 @@ const initializeDetailButtonEvents = () => {
         )
     }
     // CAN'T TOUCH THIS - END
+// Get a reference to all buttons that start with "button--"
+const allDetailButtons = document.querySelectorAll("button[id^='button--']")
 
-
-    // You will be writing code below this line
-
-    // Show Bart's details when the button is clicked
-    document.querySelector("#button--Jobe").addEventListener(
+// Add an event listener to each one
+for (const btn of allDetailButtons) {
+    btn.addEventListener(
         "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Jobe")
+        theEvent => {
+            const dialogSiblingSelector = `#${theEvent.target.id}+dialog`
+            const theDialog = document.querySelector(dialogSiblingSelector)
             theDialog.showModal()
         }
     )
-
-    document.querySelector("#button--Sam").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Sam")
-            theDialog.showModal()
-            console.log("button sam fired")
-        }
-    )
-
-    document.querySelector("#button--Trey").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Trey")
-            theDialog.showModal()
-        }
-    )
-
-    document.querySelector("#button--James").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--James")
-            theDialog.showModal()
-        }
-    )
-
-    document.querySelector("#button--Alex").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Alex")
-            theDialog.showModal()
-        }
-    )
-
-    document.querySelector("#button--Margot").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Margot")
-            theDialog.showModal()
-        }
-    )
-
 }
 
+}
 
 
 export default initializeDetailButtonEvents
