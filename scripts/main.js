@@ -17,5 +17,4 @@ FishList()
 
 TipList()
 
-
 initializeDetailButtonEvents()
